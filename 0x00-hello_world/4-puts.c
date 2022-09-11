@@ -2,7 +2,7 @@
 
 /**
  *
- * main - main programming
+ * main - main - main block
  *
  * Return: 0 (Success)
  *
