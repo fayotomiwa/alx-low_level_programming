@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
- *
  * main -  Write a C program that prints the size of various types 
- * on the compuer it is compiled and run on. 
+ * on the computer it is compiled and run on. 
  * 
  * Return: 0
  *
- *    
  */
 
 int main(void)
