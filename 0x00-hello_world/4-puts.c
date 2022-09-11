@@ -2,7 +2,7 @@
 
 /**
  *
- * main - Programming is like building a multilingual puzzle
+ * main - main programming
  *
  * Return: 0 (Success)
  *
