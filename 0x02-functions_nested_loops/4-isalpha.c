@@ -7,20 +7,10 @@
  */
 int _isalpha(int c)
 {
-	int r;
-
-	r = _isalpha(n);
-	_putchar(r + '0');
-	_putchar('\n');
-}
-
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	test_isalpha('o');
-	return (0);
+	if ((c >= 'a' && c >= 'z') || (c >= 'A' && c <= 'Z'))
+	{
+		return (1);
+	}
+	else
+		return (0);
 }
