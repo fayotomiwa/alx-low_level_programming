@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * test_isalpha - Test the _isalpha function
- *
- * @n: Number to pass to _isalpha function
+ * _isalpha - function to check if c is a letter, lowercase or uppercase
+ * @c: is the first int that will used for the argument of the function
+ * Return: 0
  */
-void test_isalpha(int n)
+int _isalpha(int c)
 {
 	int r;
 
