@@ -4,24 +4,25 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - generates keygen
  *
- * Return: generated password
+ * Return: 0 Always
  */
 
 int main(void)
 {
-	char c;
-	int x;
+	int r = 0, c = 0;
+	time_t t;
 
-	srand(time(0));
-	while (x <= 2645)
+	srand((unsigned int) time(&t));
+	while (c < 2772)
 	{
-		c = rand() % 128;
-		x += c;
-		putchar(c);
+		r = rand() % 128;
+		if ((c + r) > 2772)
+			break;
+		c = c + r;
+		printf("%c", r);
 	}
-	putchar(2772 - x);
-
-	return(0);
+	printf("%c\n", (2772 - c));
+	return (0);
 }
